@@ -114,7 +114,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/6.0/topics/i18n/
 
-LANGUAGE_CODE = "en-us"
+LANGUAGE_CODE = "es-ES"
 
 TIME_ZONE = "America/Caracas"
 
@@ -165,3 +165,5 @@ EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
 ACCOUNT_SESSION_REMEMBER = True
 
 ACCOUNT_SIGNUP_FIELDS = ["email", "password1*"]
+
+DEFAULT_FROM_EMAIL = "admin@djangobookstore.com"
