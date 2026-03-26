@@ -12,6 +12,7 @@ django-allauth = "==65.15.0"
 environs = {extras = ["django"], version = "==14.6.0"}
 
 [dev-packages]
+djlint = "*"
 
 [requires]
 python_version = "3.12"
